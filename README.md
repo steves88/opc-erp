@@ -22,8 +22,8 @@ This project aims to integrate data from an OPC server into SAP ERP system using
 - Update opc_client.py with your OPC server connection details.
 - Update sap_erp_integration.py with your SAP ERP connection parameters and RFC function names.
 
-Usage
-Run opc_client.py to connect to the OPC server, retrieve data, and send it to SAP ERP using sap_erp_integration.py.
+### Usage
+- Run opc_client.py to connect to the OPC server, retrieve data, and send it to SAP ERP using sap_erp_integration.py.
 
 ### Files
 - opc_client.py: Python script to connect to OPC UA server and retrieve data.
