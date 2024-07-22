@@ -14,15 +14,17 @@ This project aims to integrate data from an OPC server into SAP ERP system using
    git clone https://github.com/your-username/opc-erp-integration.git
    cd opc-erp-integration
 
-2. Install Dependencies
-pip install -r requirements.txt
+2. **Install Dependencies**
+	'''python
+	pip install -r requirements.txt
 
-3. Configuration
+3. **Configuration**
 Update opc_client.py with your OPC server connection details.
 Update sap_erp_integration.py with your SAP ERP connection parameters and RFC function names.
 
 Usage
 Run opc_client.py to connect to the OPC server, retrieve data, and send it to SAP ERP using sap_erp_integration.py.
+
 Files
 opc_client.py: Python script to connect to OPC UA server and retrieve data.
 sap_erp_integration.py: Python script to integrate data into SAP ERP using SAP RFC functions.
